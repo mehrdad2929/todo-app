@@ -1,5 +1,5 @@
 //task obj
-function createTask(title,priority,deadline){
+export function createTask(title,priority,deadline){
     return{
         title,
         description:'',
@@ -14,12 +14,12 @@ function createTask(title,priority,deadline){
         }
     }
 }
-function addSingleTask(task) {
+export function addSingleTask(task) {
     const swaparray = JSON.parse(localStorage.getItem('singletask')) || [];
     swaparray.push(task);
     localStorage.setItem('singletask', JSON.stringify(swaparray));
 }
-function createProject(title, deadline) {
+export function createProject(title, deadline) {
    return {
        title,
        deadline,
@@ -45,3 +45,19 @@ function createProject(title, deadline) {
        }
    }
 }
+export function logotext(logo, text) {
+    const elem = document.createElement('button');
+    elem.className = "elem";
+    
+    const addtasklogo = document.createElement('img');
+    addtasklogo.src = logo; // Changed from innerText to src since it's an image
+    
+    const addtasktext = document.createElement('div');
+    addtasktext.innerText = text;
+    
+    elem.appendChild(addtasklogo);
+    elem.appendChild(addtasktext);
+    
+    return elem;
+}
+
