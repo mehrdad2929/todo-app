@@ -1,0 +1,112 @@
+
+/* Layout structure */
+#sidebar-container {
+    flex: 1;
+    max-width: 250px;
+    min-width: 250px;
+    background-color: #252e8c;
+    border-right: 1px solid #7fe486;
+    color:white;
+}
+#sidebar-container button div {
+    color:rgb(206, 211, 110);
+}
+
+/* sidebar style*/
+/* Sidebar container */
+.container {
+    background-color: #f5f5f5;
+    padding: 20px 0;
+    height: 100%;
+}
+
+/* Menu items */
+.elem {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 12px 24px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    text-align: left;
+    gap: 12px;
+    transition: background-color 0.2s ease;
+}
+
+.elem:hover {
+    background-color: #68b80c;
+}
+
+.elem:active {
+    background-color: #9c8503;
+}
+
+/* Icon styles */
+.elem img {
+    width: 20px;
+    height: 20px;
+    opacity: 0.8;
+}
+
+/* Text styles */
+.elem div {
+    font-size: 14px;
+    color: #202020;
+    font-weight: 500;
+}
+
+/* Active state */
+.elem.active {
+    background-color: #e0e0e0;
+}
+/* Project list styling */
+#sidebar-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+#sidebar-container li {
+    padding: 5px 24px;  /* Match the padding of .elem buttons */
+}
+
+/* Project button styling */
+.projectbtn {
+    width: 100%;
+    padding: 8px 12px;
+    background: transparent;
+    border: none;
+    color: rgb(206, 211, 110);  /* Match the color of your other sidebar text */
+    text-align: left;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s ease;
+    border-radius: 4px;
+}
+
+.projectbtn:hover {
+    background-color: #68b80c;  /* Match your .elem hover color */
+}
+
+/* Add project button styling */
+.add-project-button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    background-color: #3b82f6;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px 34px;  /* Match the left padding of other elements */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.add-project-button:hover {
+    background-color: #2563eb;
+    transform: scale(1.05);
+}

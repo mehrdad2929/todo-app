@@ -8,11 +8,12 @@ dialog {
     max-width: 400px;
     width: 90%;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #250468;
 }
 
 /* Add a backdrop when dialog is open */
 dialog::backdrop {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Form container */
@@ -32,7 +33,7 @@ dialog::backdrop {
 /* Labels */
 .form-group label {
     font-weight: 500;
-    color: #374151;
+    color: #7eeb0a;
 }
 
 /* Form controls (inputs and select) */

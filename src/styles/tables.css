@@ -1,3 +1,9 @@
+
+.main-content {
+    flex: 5;
+    padding: 20px;
+    background-color: #da9c45;
+}
 /* Table container */
 table {
     width: 100%;
@@ -31,7 +37,7 @@ td {
 
 /* Row hover effect */
 tbody tr:hover {
-    background-color: #6d496c;
+    background-color: #178c07;
 }
 
 /* Status column styling */
