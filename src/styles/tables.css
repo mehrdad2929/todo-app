@@ -1,55 +1,54 @@
-
 .main-content {
-    flex: 5;
-    padding: 20px;
-    background-color: #da9c45;
+  flex: 5;
+  padding: 20px;
+  background-color: #da9c45;
 }
 /* Table container */
 table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px ;
-    background-color: #ffffff;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 /* Header styles */
 thead {
-    background-color: #2a72ba;
+  background-color: #2a72ba;
 }
 
 th {
-    padding: 12px 16px;
-    height: 28px;
-    text-align: left;
-    font-weight: 600;
-    color: #495057;
-    border: 2px solid #0e7218;
+  padding: 12px 16px;
+  height: 28px;
+  text-align: left;
+  font-weight: 600;
+  color: #495057;
+  border: 2px solid #0e7218;
 }
 
 /* Cell styles */
 td {
-    padding: 12px 16px;
-    border-bottom: 1px solid #03213e;
-    color: #212529;
-    border: 2px solid #0e7218;
+  padding: 12px 16px;
+  border-bottom: 1px solid #03213e;
+  color: #212529;
+  border: 2px solid #0e7218;
 }
 
 /* Row hover effect */
 tbody tr:hover {
-    background-color: #178c07;
+  background-color: #178c07;
 }
 
 /* Status column styling */
 td:last-child {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 /* Status colors */
 .status-incomplete {
-    color: #dc3545;
+  color: #dc3545;
 }
 
 .status-complete {
-    color: #198754;
+  color: #198754;
 }
